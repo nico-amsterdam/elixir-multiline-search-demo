@@ -1,0 +1,2 @@
+defmodule GrepTemplates do
+end
