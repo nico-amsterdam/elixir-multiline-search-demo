@@ -1,0 +1,5 @@
+<Templates>
+			<tpl name="tpl1">tpl text1</tpl>
+			<tpl name="tpl2¨>tpl text2</tpl>
+		</Templates>
+<Templates><tpl name="tpl3" >tpl text3</tpl></Templates>

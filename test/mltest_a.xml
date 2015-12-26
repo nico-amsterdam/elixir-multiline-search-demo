@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<item name"item a1">
+		<definition />
+		<Templates>
+			<tpl name="tpl1">tpl text1</tpl>
+			<tpl name="tpl2¨>tpl text2</tpl>
+		</Templates>
+		<properties />
+	</item>
+	<item name="item a2"><Templates><tpl name="tpl3" >tpl text3</tpl></Templates></item>
+</root>

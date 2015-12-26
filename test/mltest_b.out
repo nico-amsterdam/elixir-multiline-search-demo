@@ -1,0 +1,6 @@
+<Templates>
+			<tpl name="tpl4">tpl text4</tpl>
+			<!-- here comes a nested template -->
+			<Templates>
+				<tpl name="tpl5">tpl text5</tpl>
+			</Templates>

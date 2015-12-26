@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<item name"item b">
+		<definition />
+		<Templates>
+			<tpl name="tpl4">tpl text4</tpl>
+			<!-- here comes a nested template -->
+			<Templates>
+				<tpl name="tpl5">tpl text5</tpl>
+			</Templates>
+			<tpl name="tpl6¨>this one will be missed out</tpl>
+		</Templates>
+		<properties />
+	</item>
+</root>
