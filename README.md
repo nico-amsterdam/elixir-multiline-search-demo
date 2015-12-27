@@ -21,6 +21,7 @@ $ git clone https://github.com/nico-amsterdam/elixir-multiline-search-demo.git
 
 ```sh
 $ cd elixir-multiline-search-demo
+$ mix deps.get
 $ mix test
 ```
 
