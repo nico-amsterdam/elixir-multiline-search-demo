@@ -7,7 +7,7 @@ defmodule GrepTemplates.Mixfile do
      elixir: "~> 1.1",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
-     compilers: [:yecc, :leex, :erlang, :elixir, :app, :script_it],
+     compilers: Mix.compilers ++ [:script_it],
      escript: [main_module: GrepTemplates],
      deps: deps]
   end
