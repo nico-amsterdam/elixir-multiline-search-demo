@@ -2,31 +2,38 @@
 
 Elixir demo project demonstrating:
 - Command line interface using OptionParser
-- Multiline search in files. Prints everything between <Template> and </Templates> markers
+- Multiline search in files. Prints everything between &lt;Template&gt; and &lt;/Templates&gt; markers
 - Mix custom task running in compilation phase
 
 ## Installation
 
-  1. Install Elixir
+### Install Elixir
 
-        Follow the instructions on http://elixir-lang.org/install.html
+Follow the instructions on http://elixir-lang.org/install.html
 
-  2. Clone project:
+### Clone project
 
-         git clone https://github.com/nico-amsterdam/elixir-multiline-search-demo.git
+```sh
+$ git clone https://github.com/nico-amsterdam/elixir-multiline-search-demo.git
+```
 
-  3. Compile & unit test:
+### Compile & unit test
 
-         cd elixir-multiline-search-demo
-         mix test
+```sh
+$ cd elixir-multiline-search-demo
+$ mix test
+```
 
-        A script directory will be created. Modules in the lib directory will be converted to scripts in the script directory. Assumed is that the modules all contain a main function.
+A script directory will be created.
+Modules in the lib directory will be converted to scripts in the script directory.
+Assumed is that the modules all contain a main function.
+The file 'mix.exs' contains the task to create the scripts during the compilation phase.
         
-  4. Run the script:
+### Run the script
   
-         chmod +x script/grep_templates.exs
-         script/grep_templates.exs --help
-        
-        script/grep_templates.exs test/mltest_{a,b}.xml
-        
+```sh
+$ chmod +x script/grep_templates.exs
+$ script/grep_templates.exs --help
+$ script/grep_templates.exs test/mltest_{a,b}.xml
+```
 
